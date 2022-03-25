@@ -3,14 +3,24 @@ import discord
 import os
 from dotenv import load_dotenv
 
+client = discord.Client()
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
+@client.event
+async def on_ready():
+    print(client)
 
+@client.event
+async def on_message(message):
+    #ignore if the message sent by bot
+    if message.author == client.user:
+        return
+    
+    #TODO: change this to $ when finished testing (conflicts with current bot)
+    if message.content.startswith('!'): 
+        await message.channel.send('test')
+        
 
-
-
-if __name__ == "__main__":
-    #When running this file, if it is the 'main' file
-    #I.E it is not being imported from another python file run this
-
-    bot.run(os.getenv("BOT_TOKEN")
+client.run(TOKEN)
                    

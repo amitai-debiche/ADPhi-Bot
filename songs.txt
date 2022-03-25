@@ -1,0 +1,74 @@
+#this is in js, needs to be rewritten in python 3.8
+#switch case does not exist
+
+switch (args[0]) {
+            case 'hello':
+                msg.reply('Hello I am the AlphaDeltsBot.');
+                break;
+            case 'song':
+                switch (args[1]) {
+                    case '1':
+                        msg.channel.send('Would You Know');
+                        msg.channel.send('```Would you know the lights that fairest \nDeck the azure sky \nThere\'s the star and silvry crescent \nOf our ADPhi \nWindow lights in heaven\'s bright mansion \nGleaming throught the night \nTheir soft rays oer Alpha Delta \nShed a golden light \nBeam oer us, Star and Crecent\nGuide us till we die\nEach a brother loving truly, Alpha Delta Phi```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/SongsOfAlphaDeltaPhi/02-WouldYouKnow.mp3"] });
+                        break;
+                    case '2':
+                        msg.channel.send('Sweetheart Song (Silver Moonlight Memories)');
+                        msg.channel.send('```Silver moonlight memories\nHaunting my every day\nEyes that promise beauty\nIn every tender way\nThe kiss from your lips still lingers\nThe thrill will last till I die\nYou\'ll have my love forever\nHere in ADPhi```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/SongsOfAlphaDeltaPhi/10-SweetheartSong.mp3"] });
+                        break;
+                    case '3':
+                        msg.channel.send('A Gay, Gallant Ship');
+                        msg.channel.send('```A gay, gallant ship, with a well-tried crew,\nIs the Alpha Delta Phi,\nWith form so fair and timbers true,\nAnd a flag that floats on high\n\nThen call all hands, and spread all sails\nThe roaring gale defy.\nThe moon and star will ne\'er grow pale\nO\'er the flag of the Alpha Delta Phi\nO\'er the flag of the Alpha Delta Phi.\n\nWe fear not the gale, we fear not the foe.\nThe storm-king\'s might we\'ll try.\nWith flashing guns we\'ll scare from the seas\nThe foes of the Alpha Delta Phi\n\nThen call all hands, and spread all sails.\nThe roaring gale defy\nThe moon and star will ne\'er grow pale\nO\'er the flag of the Alpha Delta Phi,\nO\'er the flag of the Alpha Delta Phi.```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/SongsOfAlphaDeltaPhi/03-GayGallantShip.mp3"] });
+                        break;
+                    case '4':
+                        msg.channel.send('The Alpha Delta Girls');
+                        msg.channel.send('```While toasting all the friends we love\nOh let us not forget\nThe loving ones who’s memories\nAre lingering with us yet\n\nOld Horace raved or rosy lips\nBright eyes, and sunny curls\nHe would have had no fairer text\nThe Alpha Delta girls\n\nThe Alpha Delta girls!\nThe Alpha Delta girls!\nHe would have had no fairer text\nThe Alpha Delta girls!\n\nAnd if they wish to join us,\nThe way is simply this\nWe take them gently by the hand\nAnd then imprint a kiss\n\nAnd if they chance to murmur\nOr ask the reasons why\nWe tell them that’s the secret grip\nOf Alpha Delta Phi!\n\nOf Alpha Delta Phi!\nOf Alpha Delta Phi!\nWe tell them that’s the secret grip\nOf Alpha Delta Phi!```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/SongsOfAlphaDeltaPhi/18-TheAlphaDeltaGirls.mp3"] });
+                        break;
+                    case '5':
+                        msg.channel.send('Xaipe');
+                        msg.channel.send('```Kaire Alpha Delta Phi!\nI sigh own a thay-lone.\nOaks annoy a doo-na-my\nKatha panta knee-koon.\n\nZe-la-nay Tick tow mah nay\nAstrone kai mar my rone\nMelps amen you frah zsha ney\nHuman asthma phi drone\n\nEnth-a-day ka-lay-oh-pay\nSoon-pa cease moo-sah-own\nAye uh tai en soo-nah-fay\nAmos pry-ohs tey-phone\n\nZe-la-nay Tick tow mah nay\nAstrone kai mar my rone\nMelps amen you frah zsha ney\nHuman asthma phi drone\n\nNah whose kah-loo kah-gah-thoo\nIce aye oh nah stay-sone\nAir a omen soo hair oooh\nAir a omen koo doon\n\nZe-la-nay Tick tow mah nay\nAstrone kai mar my rone\nMelps amen you frah sha ney\nHuman asthma phi drone```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/ComeTrollAStave/02-XaipeAlphaDeltaPhi.mp3"] });
+                        break;
+                    case '6':
+                        msg.channel.send('Doxology');
+                        msg.channel.send('```Heaven Bless Thee A D Phi\nHeaven Save Thee A D Phi\nGuard thee for I\nKeep Thee harmoneous\nHappy and Glorious\nO\'er all victorious\nProsper always```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/ComeTrollAStave/04-Doxology.mp3"] });
+                        break;
+                    case '7':
+                        msg.channel.send('Come Troll a Stave');
+                        msg.channel.send('```Come troll a stave and drink a measure\nFor unto him the world is fair\nWho holdeth in his heart the treasure\nThe Alpha Delt has hidden there\n\nFor come the storm or pleasant weather\nOur star and crescent ride the sky\nAs we live merrily together\nWho live in Alpha Delta Phi\n\nHer praises who grows tired of singing?\nHer envied sons who do not know?\nFor round her alter’s proudly clinging\nOur laurals round her shrine we\’ll throw\n\nA glass for every jolly fellow\nGay shall we live until we die\nFor life is always rich and mellow\nFor us in Alpha Delta Phi```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/ComeTrollAStave/03-ComeTrollAStave.mp3"] });
+                        break;
+                    case '8':
+                        msg.channel.send('Another Busy Week Has Passed');
+                        msg.channel.send('```Another busy week has past,\nSwee de la wee dum bum.\nThe meeting night has come at last,\nSwee de la wee dum bum\n\nThe brothers lay their studies by,\nSwee de la wee \"chew hi rye sigh\" (phonetically),\nAnd shout for Alpha Delta Phi,\nSwee de la wee dum bum,\n\nLitoria, Litoria, swee de la wee tchu hi ra si (same phonetics as above)\nLitoria, Litoria, swee de la wee dum bum.\n\nWhat wealth is there in any land?\nSwee de la wee dum bum,\nOr gems upon the ocean sand\nSwee de la wee dum bum.\n\nThat would with all their beauty buy\nSwee de la wee tchu hi ra sa,\nOur hearts from Alpha Delta Phi\nSwee de la wee dum bum.\n\nLitoria, Litoria, swee de la wee tchu hi ra si (same phonetics as above)\nLitoria, Litoria, swee de la wee dum bum.```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/SongsOfAlphaDeltaPhi/19-AnotherBusyWeek.mp3"] });
+                        break;
+                    case '9':
+                        msg.channel.send('There\'s Beauty in Yon Crecent Moon');
+                        msg.channel.send('```There\’s beauty in yon crescent moon\nThere\’s beauty in yon star\nBut unseen beauty symbolled there\nOutshines them both by far\nThe mystic tie that binds us here\nWill bind us till we die\nAnd ever shall we rally \'round\nOur Alpha Delta Phi\nOur Alpha Delta Phi\n\nAnd ever shall we rally \‘round\nOur Alpha Delta Phi```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/ComeTrollAStave/09-TheresBeautyInYonCrescentMoon.mp3"] });
+                        break;
+                    case '10':
+                        msg.channel.send('We Come With a Shout and Song');
+                        msg.channel.send('```We come, we come, we come with a shout and song\nSinging always as we go marching on\nWe are a merry happy go lucky throng\nIn Alpha Delta Phi\n\nWe’re the chosen band\nUnited by true friendships tie\nSwell a joyous strain\nTo meet the echoes from on high\n\nListen to the song\nWe sing as we go marching on\nWe\’ll give a cheer for Wisconsin\nAnd Alpha Delta Phi```');
+                        msg.channel.send({ files: ["https://www.adphicornell.org/120-adphicor/audios/ComeTrollAStave/05-WeComeWithAShoutAndSong.mp3"] });
+                        break;
+                    case '11':
+                        msg.channel.send('Perfume and Powder');
+                        msg.channel.send('```Perfume and powder and yellow bow ties\nOh that is a sign of a rotten Chi Psi\nOh they eat rotten drink rotten, rotten are they\nAnd rotten they\’ll be until judgement day\n\nWhen Alpha Delts have gone to hell\nAnd all the other frat rats as well\nWe\’ll raise our glasses to the sky\nWith a high, high, high for ADPhi\n\n(x3)\nDrink, Drink, Drink to Alpha Delta\nDrink, Drink, Drink to ADPhi\nOn initiation night, all the Alpha Delts are high\nIn the brotherhood of Alpha Delta Phi\n\nDamn, Damn, Damn Phi Delta Theta\nTo hell with Beta Theta Pi\nBeneath the crescent and the star\nOh what a studly bunch we are\nIn the brotherhood of Alpha Delta Phi\nWe don\’t need Sig Chi, in the brotherhood of ADPhi\nHey!```');
+                        //msg.channel.send({files: [""]});
+                        break;
+                    case '12':
+                        msg.channel.send('Pledges\' Anthem');
+                        msg.channel.send('```(To the tune of On Wisconsin)\nAlpha Delta\nAlpha Delta\nEmerald green and white\nRaise a glass for all the brothers\nBound by friendships ties (Ooh Ra Ra)\nStar and Crescent\nStar and Crescent\nDecorate the sky\nHear the Pearl of Wisconsin\nIt\'s Alpha Delta Phi```');
+                        //msg.channel.send({files: [""]});
+                        break;
+                    default:
+                        msg.channel.send('\'$song lyrics <number>\'\n```1. Would You Know\n2. Sweetheart Song (Silver Moonlight Memories)\n3. A Gay, Gallant Ship\n4. The Alpha Delta Girls\n5. Xaipe\n6. Doxology\n7. Come Troll a Stave\n8. Another Busy Week Has Passed\n9. There\'s Beauty in Yon Crescent Moon\n10. We Come With a Shout and Song\n11. Perfume and Powder\n12. Pledges\' Anthem```');
+                        break;
+                }
+                break;
