@@ -31,6 +31,5 @@ async def ping(ctx):
 if __name__ == "__main__":
     load_dotenv()
     TOKEN = os.getenv("DISCORD_TOKEN")
-    print("There's the thing")
     client.run(TOKEN)
                    
