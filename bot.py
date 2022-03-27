@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 #TODO: Switch back to $ when bot is finished, conflicts with current bot
 client = commands.Bot(command_prefix = '!')
-status = cycle(["Status 1","Status 2", "Status 3")
+status = cycle(["Status 1","Status 2", "Status 3"])
 
 @client.command()
 async def load(ctx, extension):
