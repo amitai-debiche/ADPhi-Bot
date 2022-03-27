@@ -18,17 +18,12 @@ class Songs(commands.Cog):
 
         await ctx.send(data[s_num]['name'])
         await ctx.send(data[s_num]['lyrics'])
-       
-       #create temp file to store song.
-        doc = requests.get(data[s_num]['http'])
-        name = f"{data[s_num]['name']}.mp3"
-        with open(name, 'wb') as f:
-            f.write(doc.content)
-       
-        await ctx.send(file=discord.File(name))
-       
-        #remove file.
-        os.remove(name)
+        
+        if (s_num > 0 and  s_num < 11):
+            name = f"./cogs/mp3files/{data[s_num]['name']}.mp3"
+            await ctx.send(file=discord.File(name))
+
+     
 
 
 def setup(client):
