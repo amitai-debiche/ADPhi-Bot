@@ -1,8 +1,9 @@
 import discord
-from discord.ext import commands
+from discord.ext import commands, tasks
 
 import os
 from dotenv import load_dotenv
+from itertools import cycle
 
 #TODO: Switch back to $ when bot is finished, conflicts with current bot
 client = commands.Bot(command_prefix = '!')
@@ -33,9 +34,9 @@ async def on_ready():
     print(client)
 
 #change's bot's game status every couple hours
-@task.loop(seconds=10200)
+@tasks.loop(seconds=10200)
 async def change_status():
-    await.client.change_presence(activity=discord.Game(next(status)))
+    await client.change_presence(activity=discord.Game(next(status)))
 
 
 
@@ -46,5 +47,6 @@ async def ping(ctx):
 if __name__ == "__main__":
     load_dotenv()
     TOKEN = os.getenv("DISCORD_TOKEN")
+    print("There's the thing")
     client.run(TOKEN)
                    
