@@ -13,7 +13,7 @@ class Songs(commands.Cog):
     #Commands
     @commands.command()
     async def song(self, ctx, s_num=0):
-        with open('/home/ami/src/venv/ADPhi-Bot/cogs/songs.json') as f:
+        with open('./cogs/songs.json') as f:
             data = json.load(f)['songs']
 
         await ctx.send(data[s_num]['name'])
