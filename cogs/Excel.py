@@ -20,6 +20,22 @@ class Excel(commands.Cog):
             self.wb = load_workbook(f'./cogs/excel/{self.name}')
 
 
+   ## @commands.command()
+   ## async def rushBudget():
+
+
+
+   ## @commands.command()
+   ## async def pledgeBudget():
+
+
+    ##@commands.command()
+   ## async def socialBudget():
+
+
+    
+        
+
     @commands.command()
     async def getDoc(self, ctx):
         xlfile = self.checkFile()
@@ -43,7 +59,7 @@ class Excel(commands.Cog):
                 await ctx.send("Document has been saved")
             else:
                 await ctx.send("Can't read this file(Not .xlsx extension.")
-                
+                
     #add warning functionality and ask user if it would like a backup of the
     #or add functionality to autocreate backup that deletes after x time when
     #remove command is used
