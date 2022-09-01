@@ -39,7 +39,6 @@ async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
 
-
 @client.command()
 async def ping(ctx):
     await ctx.send("Pong!")
