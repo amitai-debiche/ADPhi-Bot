@@ -76,5 +76,5 @@ class Excel(commands.Cog):
                 return filename
         return ""
 
-def setup(client):
-    client.add_cog(Excel(client))
+async def setup(client):
+    await client.add_cog(Excel(client))
